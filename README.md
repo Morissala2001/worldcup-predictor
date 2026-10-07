@@ -1,5 +1,7 @@
 # ⚽ World Cup Predictor
 
+[![tests](https://github.com/Morissala2001/worldcup-predictor/actions/workflows/tests.yml/badge.svg)](https://github.com/Morissala2001/worldcup-predictor/actions/workflows/tests.yml)
+
 *Predict international football matches from recent form, and simulate a World Cup knockout bracket.*
 
 A machine-learning model (random forest) that describes each match by the **recent form** of both teams, estimates each side's probability of winning, then replays a knockout bracket: once with "the favourite always wins", and thousands of times with Monte Carlo.
