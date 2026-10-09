@@ -4,6 +4,8 @@
 
 *Predict international football matches from recent form, and simulate a World Cup knockout bracket.*
 
+![Demo: France against Brazil, then Argentina at home, then the simulated bracket](docs/demo.gif)
+
 A machine-learning model (random forest) that describes each match by the **recent form** of both teams, estimates each side's probability of winning, then replays a knockout bracket: once with "the favourite always wins", and thousands of times with Monte Carlo.
 
 The project can be used in three ways: a **web app** (Streamlit), a **CLI** (`worldcup`) and a Python **library** (`src/worldcup`), covered by tests.
