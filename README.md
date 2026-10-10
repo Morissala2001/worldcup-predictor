@@ -4,6 +4,8 @@
 
 *Predict international football matches from recent form, and simulate a World Cup knockout bracket.*
 
+**[▶ Try it online](https://worldcup-predictor-morissala.streamlit.app/)** (free hosting: the first visit may take a minute to wake the app up.)
+
 ![Demo: France against Brazil, then Argentina at home, then the simulated bracket](docs/demo.gif)
 
 A machine-learning model (random forest) that describes each match by the **recent form** of both teams, estimates each side's probability of winning, then replays a knockout bracket: once with "the favourite always wins", and thousands of times with Monte Carlo.
